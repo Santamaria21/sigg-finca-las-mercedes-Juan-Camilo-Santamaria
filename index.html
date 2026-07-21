@@ -6,15 +6,15 @@
     <title>SIGG — Finca Las Mercedes</title>
     <meta name="description" content="Sistema Integral de Gestión Ganadera de la finca Las Mercedes: hato, sanidad, reproducción, producción, potreros y costos en un solo lugar.">
 
-    <!-- Tipografías.
-         Se piden en enlaces separados a propósito: si una familia fallara,
-         las demás siguen cargando. Big Shoulders se pide con sus dos nombres
-         posibles porque la familia cambió de nombre al volverse variable. -->
+    <!-- Preconexión rápida a servidores externos de fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@500;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Carga optimizada de fuentes con display=swap para evitar bloqueo de renderizado -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Big+Shoulders:wght@500;700;800&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Big+Shoulders:wght@500;700;800&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+    </noscript>
 
     <!-- Estilos propios -->
     <link rel="stylesheet" href="css/estilos.css">
@@ -188,6 +188,7 @@
         <p><span id="anio"></span> · Licencia MIT</p>
     </footer>
 
-    <script src="js/main.js"></script>
+    <!-- Script cargado de forma asíncrona para no bloquear el renderizado del DOM -->
+    <script src="js/main.js" async></script>
 </body>
 </html>
