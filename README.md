@@ -28,16 +28,6 @@ https://github.com/Santamaria21/sigg-finca-las-mercedes-Juan-Camilo-Santamaria.g
 # Entrar al directorio
 cd sigg-finca-las-mercedes
 ```
-## Ejecución
-Al tratarse de un sitio estático, no requiere instalación de dependencias ni compilación. Basta con abrir el archivo `index.html` en cualquier navegador.
-
-Para desarrollo se recomienda la extensión **Live Server** de Visual Studio Code, que levanta un servidor local y recarga la página automáticamente al guardar los cambios.
-
-## Autor
-
-Juan Camilo Santamaria Sotomonte
-
-## Licencia
 
 Este proyecto está bajo la **Licencia MIT**, una licencia permisiva que permite usar, modificar y distribuir el software libremente, siempre que se conserve el aviso de copyright.
 
