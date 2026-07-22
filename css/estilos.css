@@ -449,7 +449,6 @@ button:focus-visible {
         padding: 56px 24px;
     }
 }
-
 /* ---------- 11. Respetar a quien prefiere menos movimiento ---------- */
 @media (prefers-reduced-motion: reduce) {
     html {
